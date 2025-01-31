@@ -56,7 +56,7 @@ h1{
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 190px;
+    margin-top: 200px;
     width: 284px;
     margin-left: 5px;
 }
@@ -162,7 +162,7 @@ span.fa-plus{
     height: 80px;
     bottom: 0;
     left: 0;
-    background-color: #e00874;
+    background: linear-gradient(to right, #ae2896, #509bf5);
 }
 .text_footer{
     display: flex;
@@ -175,7 +175,7 @@ span.fa-plus{
     font-family: "DM Sans" sans-serif;
     font-weight: 300;
     font-size: 14px;
-    padding: 10px 20px 0px 30px;
+    padding: 6px 20px 0px 30px;
     text-decoration: none;
 }
 .div-footer_button{
