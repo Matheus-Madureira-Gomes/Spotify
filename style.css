@@ -99,14 +99,17 @@ span.fa-plus{
     font-size: 14px;
     margin: 8px 0px;
     padding: 16px 20px;
+    border-radius: 10px;
 }
 .section_playlist_content{
     display: flex;
     flex-direction: column;
+    
 }
 .section_playlist_content .text{
     padding-bottom: 14px;
     color: #fff;
+    font-family: "DM Sans" sans-serif;
 }
 .section_playlist_content .title{
     font-weight: 700;
@@ -119,7 +122,7 @@ span.fa-plus{
     background-color: #fff;
     color: #000;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
     font-family: "DM Sans" sans-serif;
     text-decoration: none;
@@ -134,16 +137,63 @@ span.fa-plus{
 .cookies a{
     color: #b3b3b3;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: none;
 }
 .cookies a:hover{
-    background-color: aqua;
+   text-decoration: underline;
 }
-.languages .languages_button{
+.languages_button{
     background-color: transparent;
     border: 1px solid #878787;
     color: #fff;
     cursor: pointer;
     align-items: center;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+}
+.footer-section{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    background-color: #e00874;
+}
+.text_footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.footer-section .text{
+    color: #fff;
+    font-family: "DM Sans" sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 20px 0px 30px;
+    text-decoration: none;
+}
+.div-footer_button{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: flex-end;
+}
+.footer_button{
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+}
+.black-color a{
+    color: #000000;
+    font-weight: 800;
+    font-family: "DM Sans" sans-serif;
 }
