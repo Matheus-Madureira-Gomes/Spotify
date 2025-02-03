@@ -1,10 +1,14 @@
+/*Variáveis*/
 :root{
     --font-dm-sans: "DM Sans", sans-serif;
     --bg-icon:#131313;
     --bg-arrow-color:rgba(0,0,0,7); 
 }
+
+/*Sidebar lateral (início, biblioteca)*/
 body{
     background-color: rgb(0, 0, 0);
+    font-family: var(--font-dm-sans);
 }
 ul li{
     list-style: none;
@@ -18,7 +22,7 @@ h1{
 }
 .sidebar{
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     bottom: 0;
     padding: 12px;
@@ -47,21 +51,21 @@ h1{
 .sidebar nav ul li a{
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM Sans" sans-serif;
     font-weight: 600;
     font-size: 14px;
 }
+
+/*Library (cria sua playlist, biblioteca)*/
 .library{
     background-color: #121212;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 4px 8px;
+    padding: 4px 5px;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 200px;
     width: 284px;
     margin-left: 5px;
 }
@@ -77,7 +81,6 @@ h1{
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans" sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -114,7 +117,6 @@ span.fa-plus{
 .section_playlist_content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans" sans-serif;
 }
 .section_playlist_content .title{
     font-weight: 700;
@@ -129,7 +131,6 @@ span.fa-plus{
     border-radius: 20px;
     font-size: 10px;
     font-weight: 700;
-    font-family: "DM Sans" sans-serif;
     text-decoration: none;
     padding: 10px;
     border: 0;
@@ -160,6 +161,8 @@ span.fa-plus{
     margin: 8px;
     padding: 8px;
 }
+
+/* Footer (teste o premium) */
 .footer-section{
     display: flex;
     position: fixed;
@@ -177,7 +180,6 @@ span.fa-plus{
 }
 .footer-section .text{
     color: #fff;
-    font-family: "DM Sans" sans-serif;
     font-weight: 300;
     font-size: 14px;
     padding: 6px 20px 0px 30px;
@@ -200,5 +202,65 @@ span.fa-plus{
 .black-color a{
     color: #000000;
     font-weight: 800;
-    font-family: "DM Sans" sans-serif;
+}
+
+/* main-container */
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+.header_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+.header_navigation .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation .arrow-left{
+    margin-right: 1.25rem;
+}
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.header_login{
+    display: flex;
+    align-items: center;
+}
+.header_search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+.header_search img{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+}
+.header_search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
 }
