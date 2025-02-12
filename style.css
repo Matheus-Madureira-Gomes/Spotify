@@ -207,7 +207,7 @@ span.fa-plus{
 /* main-container */
 .main-container{
     max-width: 80vw;
-    height: 100vh;
+    height: 90vh;
     margin-left: 320px;
     margin-right: 56px;
 }
@@ -288,9 +288,12 @@ span.fa-plus{
 }
  /* PLAYLIST */
  .playlist-container {
-    height: 68vh;
+    height: 60vh;
+    position: absolute;
+    top: 130px;
+    width: 78.5vw;
     padding-top: 16px;
-    margin: 10px;
+    margin-left: 330px;
     border-radius: 10px;
     background-color: #121212;
   }
